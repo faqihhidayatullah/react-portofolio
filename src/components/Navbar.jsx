@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-const navbar = () => {
+const Navbar = () => {
     const[Active, setActive] = useState(false)  
     useEffect(() => {
         const handleScroll = () => {
@@ -37,4 +37,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
