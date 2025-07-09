@@ -6,13 +6,13 @@ function App() {
 
   return (
     <>
-    <div className="hero grid grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1 md:grid-cols-2">
-      <div className="animate__animated animate__fadeInUp animate__delay-2s">
-          <div className="flex items-center gap-3 bg-zinc-800 w-fit p-4 rounded-2xl">
-            <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy"/>
-            <q>never listen to other people's bad words. 🙌</q>
+   <div className="hero grid grid-cols-1 md:grid-cols-2 pt-10 items-center xl:gap-0 gap-6">
+  <div className="animate__animated animate__fadeInUp animate__delay-2s px-4">
+    <div className="flex items-center gap-3 bg-zinc-800 w-fit p-4 rounded-2xl">
+      <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
+            <q className="text-sm md:text-base">never listen to other people's bad words. 🙌</q>
           </div>
-          <h1 className="text-5xl/tight font-bold md-6">hi, I'm Muhammad Faqih Hidayatullah</h1>
+          <h1 className="text-5xl/tight font-bold mt-4 mb-4">hi, I'm Muhammad Faqih Hidayatullah</h1>
           <p className="text-base/loose mb-6 opacity-50">
           Highly motivated and results-oriented Full Stack Developer specializing in building and deploying robust web and 
 mobile applications using PHP, Java, Laravel, Code Igniter, and Android (Java). Proven ability to create user- 
