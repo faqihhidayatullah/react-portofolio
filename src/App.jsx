@@ -21,9 +21,7 @@ Eager to contribute to a collaborative team environment and leverage skills to d
 real-world problems.
 </p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500 transition-colors duration-300 ease-in-out">
-  Download CV <i className="ri-download-line ri-lg"></i>
-</a>
+            
 
             <a href="#project" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
               Lihat project<i className="ri-arrow-down-line ri-lg "></i>
