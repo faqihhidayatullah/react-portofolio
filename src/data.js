@@ -144,10 +144,21 @@ import Proyek3 from "/assets/proyek/projectkpri.png";
 import Proyek4 from "/assets/proyek/projectoneda.png";
 import Proyek5 from "/assets/proyek/projectbatik.png";
 import Proyek6 from "/assets/proyek/projectstartup.png";
+import proyek7 from "/assets/proyek/projectdashboardmonitoring.png";
 
 export const listProyek = [
   {
     id: 1,
+    gambar: proyek7,
+    nama: "Web Dashboard Monitoring Layanan Pengaduan & AUX Karyawan",
+    desk: "Website ini adalah dashboard monitoring ticket atau layanan pengaduan/keluhan serta monitoring istirahat (AUX) karyawan. Sistem ini memudahkan pemantauan status tiket pengaduan, aktivitas penanganan, dan waktu istirahat karyawan secara real-time, sehingga meningkatkan transparansi, efisiensi, dan pengambilan keputusan dalam operasional perusahaan.",
+    tools: ["CodeIgniter 4", "PHP", "CSS", "JavaScript"],
+    link: null, // Project ini bersifat rahasia perusahaan, tidak dapat diakses publik
+    warning: "Project ini bersifat rahasia perusahaan dan tidak dapat diakses publik.",
+    dad: "200",
+  },
+  {
+    id: 2,
     gambar: Proyek1,
     nama: "Website Posyandu Desa Korowelang kulon",
     desk: "Website ini dibangun menggunakan framework CodeIgniter 3, PHP, CSS, dan JavaScript untuk membantu pengelolaan data posyandu di Desa Korowelang Kulon. Fitur utamanya meliputi manajemen data ibu dan balita, penjadwalan penimbangan, rekap laporan gizi balita, serta dashboard admin yang memudahkan petugas posyandu dalam memasukkan, mengupdate, dan memantau data perkembangan kesehatan balita secara digital.",
@@ -156,7 +167,7 @@ export const listProyek = [
     dad: "200",
   },
   {
-    id: 2,
+    id: 3,
     gambar: Proyek2,
     nama: "Website Rental Mobil",
     "desk": "ebsite ini dibangun menggunakan HTML, CSS, dan PHP Native untuk membantu pengelolaan data penyewaan mobil secara online. Fitur utamanya meliputi manajemen data kendaraan, pemesanan mobil, stok mobil yang masih tersedia atau tidak, cek ketersediaan jadwal sewa, sistem validasi data pelanggan, dan dashboard admin untuk memantau status sewa serta laporan transaksi secara lengkap dan mudah dipahami.",
@@ -165,7 +176,7 @@ export const listProyek = [
     dad: "300",
   },
   {
-    id: 3,
+    id: 4,
     gambar: Proyek3,
     nama: "Web Koperasi",
     desk: "Website ini dikembangkan menggunakan HTML, CSS, JavaScript, PHP Native, dan SCSS untuk mendukung kegiatan Koperasi Pegawai Republik Indonesia (KPRI). Fitur utamanya meliputi layanan simpan pinjam anggota, konsultasi keuangan, serta program-program kesejahteraan yang memudahkan pengelolaan keuangan dan pelayanan anggota secara online.",
@@ -174,7 +185,7 @@ export const listProyek = [
     dad: "400",
   },
   {
-    id: 4,
+    id: 5,
     gambar: Proyek4,
     nama: "MOBILE APPS ONEDA ",
     desk: "Aplikasi mobile Oneda dikembangkan menggunakan Java (Android Studio) dengan dukungan PHP & MySQL di sisi server. Oneda adalah aplikasi penjualan tas yang dilengkapi fitur keranjang belanja, manajemen produk, kupon promo, perhitungan ongkos kirim (rajaongkir API), serta dashboard admin untuk memantau pesanan dan data pelanggan.",
@@ -183,7 +194,7 @@ export const listProyek = [
     dad: "500",
   },
   {
-    id: 5,
+    id: 6,
     gambar: Proyek5,
     nama: "MOBILE APPS Batik Nusantara",
     desk: "Aplikasi mobile Batik nusantara dikembangkan menggunakan Java (Android Studio) dengan dukungan PHP & MySQL di sisi server. Batik nusantara adalah aplikasi penjualan baju batik yang dilengkapi fitur keranjang belanja, manajemen produk, kupon promo, perhitungan ongkos kirim (rajaongkir API), serta dashboard admin untuk memantau pesanan .",
@@ -192,7 +203,7 @@ export const listProyek = [
     dad: "600",
   },
   {
-    id: 6,
+    id: 7,
     gambar: Proyek6,
     nama: "Ecommerce startup mobile apps",
     desk: "mobile ECOMMERCE dikembangkan menggunakan Java (Android Studio) dengan dukungan PHP & MySQL di sisi server. aplikasi ini berupa ecommerce toko fashion pakain wanita dan pria yang dilengkapi fitur keranjang belanja, manajemen produk, kupon promo, perhitungan ongkos kirim (rajaongkir API), whislist produk serta dashboard admin untuk memantau pesanan.",

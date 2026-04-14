@@ -14,12 +14,8 @@ function App() {
           </div>
           <h1 className="text-5xl/tight font-bold mt-4 mb-4">hi, I'm Muhammad Faqih Hidayatullah</h1>
           <p className="text-base/loose mb-6 opacity-50">
-          Highly motivated and results-oriented Full Stack Developer specializing in building and deploying robust web and 
-mobile applications using PHP, Java, Laravel, Code Igniter, and Android (Java). Proven ability to create user- 
-friendly and impactful digital solutions with a focus on clean code, efficient functionality, and user-centric design. 
-Eager to contribute to a collaborative team environment and leverage skills to develop innovative solutions for 
-real-world problems.
-</p>
+            Full Stack Developer yang bersemangat dan berorientasi pada hasil, berpengalaman dalam membangun dan mengembangkan aplikasi web maupun mobile menggunakan PHP, Java, Laravel, CodeIgniter, dan Android (Java). Terbiasa menciptakan solusi digital yang ramah pengguna, efisien, dan mudah dipahami dengan penekanan pada clean code dan desain yang fokus pada kebutuhan user. Siap berkontribusi dalam tim kolaboratif dan mengembangkan solusi inovatif untuk berbagai permasalahan nyata.
+          </p>
           <div className="flex items-center sm:gap-4 gap-2">
             
 
@@ -37,12 +33,13 @@ real-world problems.
       <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
       <img src={DataImage.HeroImage} alt="image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
         <p className='text-base/loose mb-10'>
-          Hello! I’m a student at Dian Nuswantoro University (UDINUS).
-I am an enthusiastic and result-oriented student majoring in Informatics at UDINUS, focusing on becoming both a Full Stack Web Developer and a Mobile Developer.
-
-I have strong skills in building and deploying robust web and mobile applications using PHP, Java, Laravel, CodeIgniter, and Android (Java). I enjoy designing and developing backend systems, including database design, API integration, and server-side logic.
-
-I’m passionate about creating impactful, user-friendly digital solutions with an emphasis on clean code, efficient functionality, and user-centered design. I thrive in collaborative team environments and I’m ready to contribute fresh ideas and build innovative solutions for real-world challenges.
+          Halo! Saya adalah mahasiswa Informatika di Universitas Dian Nuswantoro (UDINUS) yang antusias dan berorientasi pada hasil, dengan fokus menjadi Full Stack Web Developer dan Mobile Developer.
+          <br /><br />
+          Saya memiliki kemampuan kuat dalam membangun dan mengembangkan aplikasi web maupun mobile menggunakan PHP, Java, Laravel, CodeIgniter, dan Android (Java). Saya juga senang mendesain dan mengembangkan sistem backend, mulai dari desain database, integrasi API, hingga logika server-side.
+          <br /><br />
+          Saya sangat tertarik menciptakan solusi digital yang berdampak, ramah pengguna, dan efisien dengan penekanan pada clean code serta desain yang berpusat pada user. Saya siap berkolaborasi dalam tim dan berkontribusi dengan ide-ide segar untuk membangun solusi inovatif bagi berbagai tantangan nyata.
+          <br /><br />
+          Pengalaman magang: 3 bulan di PT Infomedia Nusantara sebagai Staff IT, terlibat dalam pengelolaan dan pengembangan sistem IT perusahaan.
         </p>
         <div className="flex items-center justify-between ">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block 
@@ -56,9 +53,9 @@ I’m passionate about creating impactful, user-friendly digital solutions with 
             </div>
             <div>
               <h1 className="text-4xl mb-1">
-                2<span  className="text-violet-500">+</span>
+               6 <span  clasame="text-violet-500"></span>
               </h1>
-              <p>tahun pengalaman</p>
+              <p>semester </p>
               
             </div>
           </div>
@@ -102,8 +99,13 @@ I’m passionate about creating impactful, user-friendly digital solutions with 
               ))}
             </div>
             <div className="mt-8 text-center">
-            <a href={proyek.link} className="bg-violet-700 p-3 rounded-lg block border
-            border-zinc-600 hover:bg-violet-600">Lihat Project</a>
+              {proyek.link ? (
+                <a href={proyek.link} className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600" target="_blank" rel="noopener noreferrer">Lihat Project</a>
+              ) : proyek.warning ? (
+                <div className="bg-yellow-700 text-yellow-100 p-3 rounded-lg border border-yellow-400">
+                  {proyek.warning}
+                </div>
+              ) : null}
             </div>
           </div>
         ))}
